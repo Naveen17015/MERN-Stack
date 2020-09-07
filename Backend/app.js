@@ -37,15 +37,6 @@ app.post("/register", (req, res) => {
     .catch((err) => console.log(err));
 });
 
-app.post("/login", (req, res) => {
-  var data = req.body;
-  if (data.email === Users.Email && data.password === Users.Password) {
-    console.log("Data is Matched!");
-  } else {
-    (err) => console.log(err);
-  }
-});
-
 // catch 404 and forward to error handler
 app.use(function (req, res, next) {
   next(createError(404));
