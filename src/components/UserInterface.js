@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import axios from "axios";
+import { NavBar } from "./NavBar";
 
 export const Login = () => {
   const [email, setEmail] = useState("");
@@ -17,8 +18,9 @@ export const Login = () => {
       .catch((err) => console.log("Data is Correct"));
   };
   return (
-    <div className="container">
-      <form className="px-4 py-3" onSubmit={handleSubmit}>
+    <div className="container-fluid">
+      <NavBar />
+      <form className="px-4 py-3 m-5 border" onSubmit={handleSubmit}>
         <div className="form-group">
           <label htmlFor="exampleDropdownFormEmail1">Email address</label>
           <input
