@@ -6,8 +6,75 @@ export const NavBar = () => {
     <div className="navbar fixed-top navbar-dark bg-primary" id="nav">
       <nav>
         <ul className="navigation">
-          <Link to={{ pathname: "/Login" }}>Login</Link>
-          <Link to={{ pathname: "/Register" }}>Sign up</Link>
+          <Link
+            style={{
+              color: "white",
+              textDecoration: "none",
+              margin: 50,
+              padding: 10,
+            }}
+            to={{ pathname: "/Login" }}
+          >
+            Login
+          </Link>
+          <Link
+            style={{
+              color: "white",
+              textDecoration: "none",
+              margin: 50,
+              padding: 10,
+            }}
+            to={{ pathname: "/Register" }}
+          >
+            Sign up
+          </Link>
+          <Link
+            style={{
+              color: "white",
+              textDecoration: "none",
+              margin: 50,
+              padding: 10,
+            }}
+            to={{ pathname: "/about" }}
+          >
+            About
+          </Link>
+
+          <Link
+            style={{
+              color: "white",
+              textDecoration: "none",
+              margin: 50,
+              padding: 10,
+            }}
+            to={{ pathname: "/about" }}
+          >
+            About
+          </Link>
+
+          <Link
+            style={{
+              color: "white",
+              textDecoration: "none",
+              margin: 50,
+              padding: 10,
+            }}
+            to={{ pathname: "/about" }}
+          >
+            About
+          </Link>
+
+          <Link
+            style={{
+              color: "white",
+              textDecoration: "none",
+              margin: 50,
+              padding: 10,
+            }}
+            to={{ pathname: "/about" }}
+          >
+            About
+          </Link>
         </ul>
       </nav>
     </div>
