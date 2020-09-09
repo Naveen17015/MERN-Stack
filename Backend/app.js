@@ -37,6 +37,9 @@ app.post("/register", (req, res) => {
     .catch((err) => console.log(err));
 });
 
+app.post("/login", (req, res) => {
+  let loginData = Users.findOne();
+});
 // catch 404 and forward to error handler
 app.use(function (req, res, next) {
   next(createError(404));
