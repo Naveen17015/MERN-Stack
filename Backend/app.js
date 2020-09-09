@@ -33,7 +33,7 @@ app.post("/register", (req, res) => {
   var userData = new Users(req.body);
   userData
     .save()
-    .then((item) => console.log("Data is Stored to Database!"))
+    .then((item) => console.log("Data is Stored!"))
     .catch((err) => console.log(err));
 });
 
