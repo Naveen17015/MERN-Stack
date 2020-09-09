@@ -31,6 +31,7 @@ app.use(cors({ origin: "http://localhost:3000", credentials: true }));
 
 app.post("/register", (req, res) => {
   var userData = new Users(req.body);
+  console.log(userData);
   userData
     .save()
     .then((item) => console.log("Data is Stored!"))
