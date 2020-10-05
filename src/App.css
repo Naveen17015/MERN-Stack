@@ -1,8 +1,37 @@
 .container-fluid {
-  width: auto;
-  height: auto;
+  width: 100%;
+  height: 1000px;
+}
+nav {
+  background-color: turquoise;
+  position: fixed;
+  top: 0;
+  height: 70px;
+  width: 100%;
+}
+nav h1 {
+  text-align: center;
+}
+nav h1 a {
+  color: white;
 }
 
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+li {
+  float: right;
+}
+nav ul li a {
+  display: block;
+  padding: 5px 5px;
+  color: white;
+  text-align: center;
+  float: right;
+}
 .container-fluid a:hover {
   text-decoration: none;
 }

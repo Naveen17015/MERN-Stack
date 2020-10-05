@@ -34,6 +34,7 @@ export const Register = () => {
             id="exampleDropdownFormEmail1"
             placeholder="email@example.com"
             onChange={(e) => setEmail(e.target.value)}
+            required
           />
         </div>
         <div className="form-group">
@@ -44,6 +45,7 @@ export const Register = () => {
             id="exampleDropdownFormUsername"
             placeholder="Username"
             onChange={(e) => setName(e.target.value)}
+            required
           />
         </div>
         <div className="form-group">
@@ -54,6 +56,7 @@ export const Register = () => {
             id="exampleDropdownFormPhone"
             placeholder="Phone Number"
             onChange={(e) => setPhone(e.target.value)}
+            required
           />
         </div>
         <div className="form-group">
@@ -64,6 +67,7 @@ export const Register = () => {
             id="exampleDropdownFormPassword1"
             placeholder="Password"
             onChange={(e) => setPassword(e.target.value)}
+            required
           />
         </div>
         <button type="submit" className="btn btn-primary">

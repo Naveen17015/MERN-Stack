@@ -29,6 +29,7 @@ export const Login = () => {
             id="exampleDropdownFormEmail1"
             placeholder="email@example.com"
             onChange={(e) => setEmail(e.target.value)}
+            required
           />
         </div>
         <div className="form-group">
@@ -39,6 +40,7 @@ export const Login = () => {
             id="exampleDropdownFormPassword1"
             placeholder="Password"
             onChange={(e) => setPassword(e.target.value)}
+            required
           />
         </div>
         <button type="submit" className="btn btn-primary center">
